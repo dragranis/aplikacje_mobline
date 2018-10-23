@@ -1,0 +1,57 @@
+body{
+	width:80vw;
+	height:90vh;
+	margin:0 auto;
+	background:#f9c495;
+}
+
+.artykul{
+		width:auto;
+		height:auto;
+		text-align:justify;
+}
+
+img{
+		width:50%;
+		height:35%;
+		margin:0 25%;
+}
+
+h1{
+	color:red;
+}
+
+ol{
+	color:green;
+	font-weight:bold;
+}
+
+#menu span{
+	font-size:5vh;
+	margin-right:2%;
+}
+
+a{
+	text-decoration:none;
+}
+
+a:hover{
+	color:red;
+}
+
+form{
+	margin:0 auto;
+	border:1px black solid;
+}
+
+#footer{
+	border-top:2px black solid;
+	margin:5% auto 0% auto;
+}
+
+
+@media screen and (max-width:400px){
+	span{
+		display:block;
+	}
+}
